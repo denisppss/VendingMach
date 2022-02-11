@@ -1,0 +1,17 @@
+﻿<Window x:Class="Case_1.DrinkAdd"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Case_1"
+        mc:Ignorable="d"
+        Title="DrinkAdd" Height="450" Width="800">
+    <Grid>
+        <TextBox Name="CostD" HorizontalAlignment="Left" Height="23" Margin="335,150,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="120"/>
+        <TextBox Name="CountD" HorizontalAlignment="Left" Height="23" Margin="335,215,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="120"/>
+        <Button Name="SaveB" Content="Сохранить" HorizontalAlignment="Left" Margin="305,280,0,0" VerticalAlignment="Top" Width="75" Click="SaveB_Click"/>
+        <Button Name="DelB" Content="Удалить" HorizontalAlignment="Left" Margin="405,280,0,0" VerticalAlignment="Top" Width="75" Click="DelB_Click"/>
+        <Button Name="FolderB" Content="Folder" HorizontalAlignment="Left" Margin="335,85,0,0" VerticalAlignment="Top" Width="120" Click="FolderB_Click"/>
+
+    </Grid>
+</Window>
